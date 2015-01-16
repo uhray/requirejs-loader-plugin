@@ -44,19 +44,19 @@ require.config({
 // NOTE: this is the same:
 // requirejs(['loader!all'], function(obj) {
 requirejs(['loader!'], function(obj) {
-    /*
-    obj === {
-      modules: {
-        data: <data.js object>,
-        tools: <tools.js object>,
-      },
-      validators : {
-        string: <string.js object>,
-        number: <number.js object>,
-        object: <object.js object>
-      }
+  /*
+  obj === {
+    modules: {
+      data: <data.js object>,
+      tools: <tools.js object>,
+    },
+    validators : {
+      string: <string.js object>,
+      number: <number.js object>,
+      object: <object.js object>
     }
-    */
+  }
+  */
 });
 ```
 
@@ -64,11 +64,11 @@ Additionally, you can choose to just load one of the objects:
 
 ```js
 requirejs(['loader!modules'], function(obj) {
-    /*
-    obj === {
-      data: <data.js object>,
-      tools: <tools.js object>,
-    }
-    */
+  /*
+  obj === {
+    data: <data.js object>,
+    tools: <tools.js object>,
+  }
+  */
 });
 ```
