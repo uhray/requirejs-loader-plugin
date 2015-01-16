@@ -1,6 +1,7 @@
 {
   "name": "requirejs-loader-plugin",
   "main": "index.js",
+  "version": "1.0.0",
   "ignore": [
     "*.md",
     "package.json"
