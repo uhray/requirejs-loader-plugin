@@ -27,7 +27,12 @@ require.config({
     loader: {
       modules: {
         data: 'modules/data',
-        tools: '
+        tools: 'modules/tools'
+      },
+      validators: {
+        string: 'validators/string',
+        number: 'validators/number',
+        object: 'validators/object'
       }
     }
   },
