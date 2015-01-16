@@ -1,0 +1,23 @@
+{
+  "name": "requirejs-loader-plugin",
+  "version": "0.0.0",
+  "description": "This a requirejs loader for grouping different files into an object and being able to load all at once.",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uhray/requirejs-loader-plugin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uhray/requirejs-loader-plugin/issues"
+  },
+  "homepage": "https://github.com/uhray/requirejs-loader-plugin",
+  "dependencies": {},
+  "devDependencies": {
+    "jscs": "^1.10.0"
+  }
+}

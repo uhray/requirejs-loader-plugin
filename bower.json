@@ -1,0 +1,10 @@
+{
+  "name": "requirejs-loader-plugin",
+  "main": "index.js",
+  "ignore": [
+    "*.md",
+    "package.json"
+  ],
+  "dependencies": { }
+}
+
