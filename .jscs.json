@@ -11,6 +11,7 @@
   "fileExtensions": [".js"],
   "excludeFiles": [
     "node_modules/**",
-    "bower_modules/**"
+    "bower_modules/**",
+    "dist/**"
   ]
 }

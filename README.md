@@ -37,7 +37,7 @@ require.config({
     }
   },
   paths: {
-    loader: '/path/to/loader/loader'
+    loader: '/path/to/loader/dist/loader.js'
   }
 });
 
